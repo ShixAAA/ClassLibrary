@@ -21,7 +21,7 @@ namespace ClassLibrary
         public void Show() 
         {
             //Шеховцов Иван 31ИС
-            Console.WriteLine($"\tПродукт: имя = {Name}, количество = {Number}");
+            Console.WriteLine($"\tТовар: имя = {Name}, количество = {Number}");
         }
 
         public int CompareTo(Product other) 
